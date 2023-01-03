@@ -1,0 +1,70 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    /* background-color: rgb(198, 152, 241); */
+    padding: 34px;
+    margin: auto;
+
+}
+
+.container h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+
+
+}
+p{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+input, textarea{
+    width: 80%;
+    margin: 10px 0px;
+    padding: 6px;
+    font-size: 13px;
+    border: 2px solid black ;
+    border-radius: 6px;
+    outline: none;
+    display: block;
+    
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    color: white;
+    background: purple;
+    padding: 7px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.iit{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+    border: cover;
+}
+
+.submitMsg{
+    font-size: 18px;
+    color: green;
+}
